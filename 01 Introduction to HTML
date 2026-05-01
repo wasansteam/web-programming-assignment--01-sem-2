@@ -1,0 +1,35 @@
+!DOCTYPE html>
+
+<head>
+     
+    <title>My Broast Recipe</title>
+</head>
+<body>
+
+    <h1> Crispy Broast</h1>
+
+    <p>
+        I've tied maiking chicken many times but this is the best way to make it.
+
+    <h2>What you'll need</h2>
+    <ul>
+        <li>1 kg Chicken pieces</li>
+        <li>1 cup Yogurt </li>
+        <li>2 cups Flour and 1/2 cup Cornstarch</li>
+        <li>Ginger-garlic paste</li>
+        <li>Spices: Paprika, chili powder, white pepper, and salt</li>
+        <li>little Oil just to spray for using airfry </li>
+    </ul>
+
+    <h2>How to cook it</h2>
+    <ol>
+        <li>Cut slits in the chicken so the flavor gets inside.</li>
+        <li>Mix yogurt with half the spices and marinate for 4+ hours.</li>
+        <li>Mix the flour starch and the rest of the spices in a bowl.</li>
+    
+        <li>Air fry at 170°C for about 12-15 mins.</li>
+       
+    </ol>
+
+</body>
+</html>
