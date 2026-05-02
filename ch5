@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Car Showcase</title>
+    <style>
+        /* Centering the video horizontally and vertically */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0a0a0a; /* Dark sleek background */
+            overflow: hidden;
+        }
+
+        .video-wrapper {
+            width: 80%;
+            max-width: 900px;
+            position: relative;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+            border: 1px solid #333;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="video-wrapper">
+        <!-- 
+            - poster: An online image that shows while loading
+            - loop: Video repeats automatically
+            - muted: Allows the video to play/loop automatically in browsers
+            - controls: Adds play/pause and volume buttons
+        -->
+        <video 
+            poster="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=1000" 
+            loop 
+            muted 
+            controls>
+            <source src="https://v.ftcdn.net/02/64/04/96/700_F_264049688_LdO0jO8nI7E7qA6R9X7C5pZlVwF5U5hH_ST.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+</body>
+</html>
