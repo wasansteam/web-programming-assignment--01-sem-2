@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Texture Gallery</title>
+    <!-- This link is the bridge to your color! -->
+    <link rel="stylesheet" href="ch3w.css">
+</head>
+<body>
+
+    <div class="main-wrapper">
+        <h1>Earth Elements Gallery</h1>
+
+        <div class="gallery-container">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1545127018-877799516625?q=80&w=600&auto=format&fit=crop" class="moss-border">
+                <div class="info">
+                    <h3>Forest Moss</h3>
+                    <p>Nature's velvet carpet</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?q=80&w=600&auto=format&fit=crop" class="sand-border">
+                <div class="info">
+                    <h3>Desert Sand</h3>
+                    <p>Wind-swept ridges</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1505118380757-91f5f45d8de4?q=80&w=600&auto=format&fit=crop" class="water-border">
+                <div class="info">
+                    <h3>Clear Water</h3>
+                    <p>Pure liquid ripples</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
