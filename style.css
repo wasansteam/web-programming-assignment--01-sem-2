@@ -1,0 +1,26 @@
+/* div#A - Purple border with red glow */
+div:nth-child(1) {
+  border-color: #8B00FF;
+  box-shadow: 8px 8px 15px rgba(255, 0, 0, 0.6);
+}
+
+/* div#B - Green border with dark shadow */
+div:nth-child(2) {
+  border-color: #00FF00;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* div#C - Multiple colored borders with rounded corners */
+div:nth-child(3) {
+  border-color: #FFA500;
+  border-radius: 25px;
+  box-shadow: 
+    0 0 0 8px #0066FF,
+    0 0 0 16px #FF0000,
+    0 0 0 24px #00AA00;
+}
+
+/* div#D - Dark red border */
+div:nth-child(4) {
+  border-color: #8B0000;
+}
