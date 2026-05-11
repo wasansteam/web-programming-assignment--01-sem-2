@@ -43,12 +43,12 @@
             - controls: Adds play/pause and volume buttons
         -->
         <video 
-            poster="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=1000" 
+            poster="https://images.fineartamerica.com/images-medium-large-5/1957-mercedes-benz-300-sl-gullwing-emblem-jill-reger.jpg" 
             loop 
             muted 
             controls>
-            <source src="https://v.ftcdn.net/02/64/04/96/700_F_264049688_LdO0jO8nI7E7qA6R9X7C5pZlVwF5U5hH_ST.mp4" type="video/mp4">
-            Your browser does not support the video tag.
+            <source src="13335120_3840_2160_24fps.mp4" type="video/mp4">
+            
         </video>
     </div>
 
