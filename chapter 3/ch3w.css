@@ -1,0 +1,64 @@
+/* If you see a dark background and green/yellow/blue borders, it's working! */
+body {
+    background-color: #1a1a1d; /* Deep Charcoal */
+    color: #eeeeee;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #4ee44e; /* Neon Green Title */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    background-color: #25252b;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Border Colors to prove the CSS is active */
+.moss-border { border-bottom: 8px solid #2ecc71; } /* Green */
+.sand-border { border-bottom: 8px solid #f1c40f; } /* Yellow */
+.water-border { border-bottom: 8px solid #3498db; } /* Blue */
+
+.info {
+    padding: 20px;
+    text-align: center;
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.info p {
+    color: #999;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
