@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Study Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>Web Development Quick-Reference Guide</h1>
+        <p>A handy guide for essential HTML tags and CSS properties.</p>
+    </header>
+
+    <div class="container">
+        
+        <main class="content-section">
+            <h2>Core HTML Tags</h2>
+            <p>Below are 10 essential HTML tags used to structure content on a webpage.</p>
+
+            <div class="card">
+                <h3>1. &lt;h1&gt; to &lt;h6&gt; (Headings)</h3>
+                <p>Used to define headings on a page, where h1 is the most important and h6 is the least important.</p>
+                <pre><code>&lt;h1&gt;Main Page Title&lt;/h1&gt;
+&lt;h2&gt;Section Subheading&lt;/h2&gt;</code></pre>
+            </div>
+
+            <div class="card">
+                <h3>2. &lt;p&gt; (Paragraph)</h3>
+                <p>Groups blocks of text into standard sentences and paragraphs with automatic spacing above and below.</p>
+                <pre><code>&lt;p&gt;This is a sentence of text on my website.&lt;/p&gt;</code></pre>
+            </div>
+
+            <div class="card">
+                <h3>3. &lt;ul&gt; (Unordered List)</h3>
+                <p>Creates a bulleted list of items that do not require a specific numerical order.</p>
+                <pre><code>&lt;ul&gt;
+    &lt;li&gt;First bullet item&lt;/li&gt;
+    &lt;li&gt;Second bullet item&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+            </div>
+
+            <div class="card">
+                <h3>4. &lt;ol&gt; (Ordered List)</h3>
+                <p>Creates a numbered list of items, which is perfect for step-by-step methods or instructions.</p>
+                <pre><code>&lt;ol&gt;
+    &lt;li&gt;Step One&lt;/li&gt;
+    &lt;li&gt;Step Two&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+            </div>
+
+            <div class="card">
+                <h3>5. &lt;li&gt; (List Item)</h3>
+                <p>Used inside either a &lt;ul&gt; or an &lt;ol&gt; tag to wrap around each individual item in the list.</p>
+                <pre><code>&lt;li&gt;Just a single item inside a list&lt;/li&gt;</code></pre>
+            </div>
+
+            <div class="card">
+                <h3>6. &lt;a&gt; (Anchor / Link)</h3>
+                <p>Creates a hyperlink to connect users to another webpage using the "href" attribute.</p>
+                <pre><code>&lt;a href="https://google.com"&gt;Visit Google&lt;/a&gt;</code></pre>
+            </div>
+
+            <div class="card">
+                <h3>7. &lt;div&gt; (Division)</h3>
+                <p>A generic container used to group elements together so they can be styled easily with CSS.</p>
+                <pre><code>&lt;div class="box-layout"&gt;
+    &lt;p&gt;Text inside a container.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+
+            <div class="card">
+                <h3>8. &lt;span&gt; (Inline Container)</h3>
+                <p>An inline container used to mark up or style a specific word or phrase inside a larger sentence.</p>
+                <pre><code>&lt;p&gt;This word is &lt;span class="red-text"&gt;important&lt;/span&gt;.&lt;/p&gt;</code></pre>
+            </div>
+
+            <div class="card">
+                <h3>9. &lt;pre&gt; (Preformatted Text)</h3>
+                <p>Displays text exactly as written in the HTML file, preserving spaces, line breaks, and formatting codes.</p>
+                <pre><code>&lt;pre&gt;
+Line one
+    Line two (indented)
+&lt;/pre&gt;</code></pre>
+            </div>
+
+            <div class="card">
+                <h3>10. &lt;code&gt; (Computer Code)</h3>
+                <p>Styles text inside a monospace font to indicate a short snippet of computer programming code.</p>
+                <pre><code>&lt;p&gt;Use the &lt;code&gt;var&lt;/code&gt; keyword.&lt;/p&gt;</code></pre>
+            </div>
+        </main>
+
+        <main class="content-section">
+            <h2>Core CSS Properties</h2>
+            <p>Below are 8 fundamental CSS styling rules used to control layouts, colors, and fonts.</p>
+
+            <div class="card">
+                <h4>1. background-color</h4>
+                <p>Sets the background color behind the text or element container.</p>
+                <pre><code>body {
+    background-color: #f4f6f9;
+}</code></pre>
+            </div>
+
+            <div class="card">
+                <h4>2. font-family</h4>
+                <p>Defines which font style the browser should use to display the text content.</p>
+                <pre><code>h1 {
+    font-family: Arial, sans-serif;
+}</code></pre>
+            </div>
+
+            <div class="card">
+                <h4>3. color</h4>
+                <p>Changes the specific foreground color of text elements.</p>
+                <pre><code>p {
+    color: #333333;
+}</code></pre>
+            </div>
+
+            <div class="card">
+                <h4>4. margin</h4>
+                <p>Creates blank space *outside* of the element's border to push neighboring items away.</p>
+                <pre><code>.box {
+    margin: 20px;
+}</code></pre>
+            </div>
+
+            <div class="card">
+                <h4>5. padding</h4>
+                <p>Generates blank space *inside* of an element, acting as a cushion between content and its border.</p>
+                <pre><code>.card {
+    padding: 15px;
+}</code></pre>
+            </div>
+
+            <div class="card">
+                <h4>6. border-radius</h4>
+                <p>Rounds the sharp square corners of an element's container box background.</p>
+                <pre><code>img {
+    border-radius: 8px;
+}</code></pre>
+            </div>
+
+            <div class="card">
+                <h4>7. text-align</h4>
+                <p>Sets the alignment of text inside its block container (left, right, center, or justify).</p>
+                <pre><code>h2 {
+    text-align: center;
+}</code></pre>
+            </div>
+
+            <div class="card">
+                <h4>8. display</h4>
+                <p>Determines how an element behaves in the document layout grid (e.g., block, inline, or flex).</p>
+                <pre><code>.row {
+    display: flex;
+}</code></pre>
+            </div>
+        </main>
+
+    </div>
+
+</body>
+</html>
