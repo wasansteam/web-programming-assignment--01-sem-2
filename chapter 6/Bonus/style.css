@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#gameBox, #loseBox {
+    background-color: white;
+    width: 380px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#scoreArea {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#rgbCode {
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#boxContainer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+
+#replyMsg {
+    font-size: 18px;
+    font-weight: bold;
+    height: 20px;
+}
+
+#resetBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
