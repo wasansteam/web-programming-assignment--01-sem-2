@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="gameBox">
+        <h1>RGB Guessing Game</h1>
+        
+        <div id="scoreArea">
+            <span>Score: <span id="userScore">0</span></span> | 
+            <span>Lives: <span id="userLives">3</span></span>
+        </div>
+
+        <h2 id="rgbCode">RGB(0, 0, 0)</h2>
+
+        <div id="boxContainer"></div>
+        <p id="replyMsg"></p>
+    </div>
+
+    <div id="loseBox" class="hidden">
+        <h2>Game Over</h2>
+        <p>Final Score: <span id="endScore">0</span></p>
+        <button id="resetBtn">Play Again</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
