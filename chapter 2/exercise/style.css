@@ -1,79 +1,80 @@
 body {
-    background-color: black;
-    color: white;
     font-family: Arial, sans-serif;
-}
-
-.top-nav {
-    background-color: #222222;
-    padding: 10px;
-    text-align: center;
-}
-
-.top-nav a {
-    color: yellow;
-    margin: 15px;
-    text-decoration: none;
-}
-
-header {
-    background-color: #111111;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
     padding: 30px;
     text-align: center;
 }
 
-header h1 {
+header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 0 auto;
     color: yellow;
-    font-size: 40px;
 }
 
-section {
-    padding: 20px;
-}
-
-h2 {
+h2, h3 {
+    text-align: center !important;
     color: yellow;
-    border-bottom: 2px solid yellow;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: none !important;
+    border-bottom: none !important;
+    text-decoration: none !important;
 }
 
-h3 {
-    color: white;
-}
-
-.highlight-text {
-    color: yellow;
-    font-weight: bold;
+#plot p {
+    text-align: left !important;
 }
 
 ul {
-    list-style-type: square;
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 20px;
 }
 
-li {
-    padding: 5px;
-}
-
-strong {
+.highlight-text {
+    font-weight: bold;
     color: yellow;
 }
 
 .review-box {
-    background-color: #222222;
-    border: 1px solid yellow;
+    background-color: #111111;
+    border-left: 5px solid yellow;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 footer {
-    background-color: #111111;
-    padding: 20px;
     text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
 }
 
 .btn-link {
+    display: inline-block;
     background-color: yellow;
     color: black;
-    padding: 10px;
+    padding: 10px 15px;
     text-decoration: none;
+    border-radius: 5px;
     font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn-link:hover {
+    background-color: #ccbb00;
 }
